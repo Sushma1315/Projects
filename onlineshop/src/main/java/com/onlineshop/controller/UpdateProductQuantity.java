@@ -34,8 +34,11 @@ public class UpdateProductQuantity extends HttpServlet {
                  //Sending response back to the user/customer.
                 response.sendRedirect("checkout.jsp");
             }
+            
         } catch (Exception e) {
             e.printStackTrace();
+            
+         
         }
     }
 }

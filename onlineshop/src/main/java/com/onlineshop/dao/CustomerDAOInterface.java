@@ -30,5 +30,6 @@ public interface CustomerDAOInterface {
 	String adminLoginDAO(String email, String pass);
 
 	Customer customerLoginDAO(String email, String pass);
+	
 
 }

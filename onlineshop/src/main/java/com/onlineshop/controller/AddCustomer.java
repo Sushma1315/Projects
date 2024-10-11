@@ -43,7 +43,6 @@ public class AddCustomer extends HttpServlet {
         //Creating Session
         HttpSession hs = request.getSession(true);
 
-        
         try {
             
             if (addCustomer > 0) {

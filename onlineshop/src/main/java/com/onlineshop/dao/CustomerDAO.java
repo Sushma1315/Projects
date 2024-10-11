@@ -36,7 +36,8 @@ public class CustomerDAO implements CustomerDAOInterface {
 	        }
 		 return addCustomer;
 	}
-
+	
+	
 	@Override
 	public int addProductDAO(Product product) {
 		int addCustomer=0;

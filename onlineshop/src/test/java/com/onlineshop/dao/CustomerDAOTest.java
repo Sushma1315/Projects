@@ -22,6 +22,7 @@ private CustomerDAOInterface cDAO;
 	}
 
 	@Test
+	
 	public void testAddCustomerDAO() {
 		Customer c=new Customer();
 		c.setName("Shalini");
@@ -30,12 +31,14 @@ private CustomerDAOInterface cDAO;
 		c.setMobile("9886345721");
 		c.setPassword("abcd");
 		c.setPincode("560036");
+		c.setEmail("vsushma42@gmail.com");
 		int i=cDAO.addCustomerDAO(c);
 		
 		assert i>0:"Customer Registration System.out.println";
 	}
 
 	@Test
+	
 	public void testAddProductDAO() {
 		System.out.println("Not yet implemented");
 	}
@@ -46,11 +49,13 @@ private CustomerDAOInterface cDAO;
 	}
 
 	@Test
+	
 	public void testAddOrderDAO() {
 		System.out.println("Not yet implemented");
 	}
 
 	@Test
+	
 	public void testDeleteFromCartDAO() {
 		System.out.println("Not yet implemented");
 	}
@@ -75,6 +80,7 @@ private CustomerDAOInterface cDAO;
 		System.out.println("Not yet implemented");
 	}
 
+	
 	@Test
 	public void testAdminLoginDAO() {
 		System.out.println("Not yet implemented");

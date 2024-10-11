@@ -30,12 +30,14 @@ private CustomerServiceInterface cService;
 		c.setMobile("9886345721");
 		c.setPassword("abcd");
 		c.setPincode("560036");
+		c.setEmail("vsushma42@gmail.com");
 		int i=cService.addCustomerService(c);
 		
 		assert i>0:"Customer Registration System.out.println";
 		
 	}
 
+	
 	@Test
 	public void testAddProductService() {
 		System.out.println("Not yet implemented");
